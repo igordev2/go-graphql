@@ -13,8 +13,7 @@ igor@Igor:~$ go run server.go
 
 mutations and queries in playground
 
-```json
-{
+```graphql
 query findCategory {
   categories {
     id
@@ -79,6 +78,5 @@ mutation createChapter {
       name
     }
   }
-}
 }
 ```
