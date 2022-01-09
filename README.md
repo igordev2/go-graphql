@@ -14,6 +14,7 @@ igor@Igor:~$ go run server.go
 mutations and queries in playground
 
 ```json
+{
 query findCategory {
   categories {
     id
@@ -78,5 +79,6 @@ mutation createChapter {
       name
     }
   }
+}
 }
 ```
