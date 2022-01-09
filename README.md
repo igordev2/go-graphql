@@ -13,7 +13,7 @@ igor@Igor:~$ go run server.go
 
 mutations and queries in playground
 
-```js
+```json
 query findCategory {
   categories {
     id
