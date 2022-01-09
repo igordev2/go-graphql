@@ -40,7 +40,7 @@ query findCourses {
 }
 
 mutation createCategory {
-  createCategory(input: { name: "PHP", description: "PHP is awsome" }) {
+  createCategory(input: { name: "GO", description: "GO is awsome" }) {
     id
     name
     description
@@ -50,8 +50,8 @@ mutation createCategory {
 mutation createCourse {
   createCourse(
     input: {
-      name: "Evolving with PHP"
-      description: "Mega PHP is awsome"
+      name: "Evolving with GO"
+      description: "Mega GO is awsome"
       categoryId: "T5577006791947779410"
     }
   ) {
